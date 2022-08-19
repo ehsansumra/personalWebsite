@@ -1,9 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: auto;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 a {
@@ -11,6 +18,11 @@ a {
   text-decoration: none;
 }
 
+li {
+  margin-left: 10px;
+  display: list-item;
+  list-style-type: circle;
+}
 * {
   box-sizing: border-box;
 }
@@ -21,6 +33,6 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: #1F2937;
   }
 }
