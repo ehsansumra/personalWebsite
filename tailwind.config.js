@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   mode: 'jit',
-  darkMode: 'true',
+  darkMode: 'false',
 
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -10,7 +10,8 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        'navWidth': '1000px'
+        'navWidth': '1000px',
+        'boxWidth': '29rem'
       },
 
     },
