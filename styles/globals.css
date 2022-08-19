@@ -19,7 +19,6 @@ a {
 }
 
 li {
-  margin-left: 10px;
   display: list-item;
   list-style-type: circle;
 }

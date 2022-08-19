@@ -11,7 +11,8 @@ module.exports = {
     extend: {
       width: {
         'navWidth': '1000px'
-      }
+      },
+
     },
   },
   plugins: [],
