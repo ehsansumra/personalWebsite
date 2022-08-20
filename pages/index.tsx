@@ -15,7 +15,7 @@ const Main: NextPage = () => {
                 <div className="flex justify-between flex-wrap w-full  ">
                     <div className="lg:w-boxWidth w-auto mb-10">
                         <h1 className="text-2xl text-violet-300 ">Hi, I&apos;m Ehsan Sumra.</h1>
-                        <h2 className="mt-4 text-lg border-b inline-block text-violet-200 border-violet-500 px-1 ">I&apos;m a software engineer from West Haven, CT.</h2>
+                        <h2 className="mt-4 text-lg  inline-block text-violet-200  ">I&apos;m a software engineer from West Haven, CT.</h2>
 
                         <p className="my-2 mb-4 w-full  text-gray-400">
                             ...and a Computer Science Student at Southern Connecticut State University (Graduating May 2023). I&apos;ve worked on
