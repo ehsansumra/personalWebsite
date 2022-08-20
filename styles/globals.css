@@ -25,6 +25,9 @@ a {
   text-decoration: none;
 }
 
+.example-1 {
+  overflow:hidden;
+}
 li {
   display: list-item;
   list-style-type: circle;

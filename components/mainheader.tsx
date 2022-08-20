@@ -8,13 +8,13 @@ interface Props {
 }
 
 const MainHeader: FC<Props> = ({ children, style, margin, firstHeader}) => {
-    let marginStyle = " sm:mt-0 mt-48"
-    if (margin) marginStyle = " sm:mt-10 mt-48";
-    if (firstHeader) marginStyle = " sm:mt-0 mt-36"
+    let marginStyle = " lg:mt-0 mt-48"
+    if (margin) marginStyle = " lg:mt-10 mt-48";
+    if (firstHeader) marginStyle = " lg:mt-0 mt-36"
     let defaultStyle = "text-2xl text-violet-300" + marginStyle;
     
     return (
-        <h1 className={defaultStyle}>
+        <h1 className={defaultStyle} style={style}>
             {children}
         </h1>
     )
