@@ -9,7 +9,7 @@ const Projects: NextPage = () => {
         <div className=" pattern w-full bg-gray-900 min-h-screen pt-12 flex flex-wrap justify-center">
             <section className=" bg-gray-900  shadow-gray-900 flex flex-col min-h-full w-navWidth p-8 px-5 mt-30  md:mx-2">
 
-                <MainHeader margin={true}>Projects</MainHeader>
+                <MainHeader firstHeader={true}>Projects</MainHeader>
 
                 <section className="flex justify-start items-baseline flex-wrap mb-2">
                     <HeaderBox>Full Stack Survey App</HeaderBox>
@@ -34,7 +34,7 @@ const Projects: NextPage = () => {
 
                 <section className="flex justify-start items-baseline flex-wrap mt-5 mb-2">
                     <HeaderBox>Poker Overlay</HeaderBox>
-                    <p className="ml-3 text-gray-400 bg-gray-800 px-1">-private</p>
+                    <p className="ml-3 text-gray-400 bg-gray-800 px-1 mt-2">-private</p>
                 </section>
 
                 <ul className="pl-5 [&>*]:text-gray-400">

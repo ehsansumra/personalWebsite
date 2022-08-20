@@ -25,7 +25,7 @@ const JsonHeader: FC<Props> = ({ children, title, style,margin, firstHeader }) =
                 <div className={defaultStyle}>{": {"}</div>
 
             </div>
-            <section className="ml-2">
+            <section className="xm:ml-2">
                 {children}
             </section>
             <div className={defaultStyle + " mt-4"}>{"}"}</div>

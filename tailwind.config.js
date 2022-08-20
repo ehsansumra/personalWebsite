@@ -17,7 +17,10 @@ module.exports = {
         'dropViolet': '1px 1px 1px rgba(139, 92, 246, 1)',
         'dropRed': '1px 1px 1px rgba(239, 68, 68, 1)',
         'dropGreen': '1px 1px 1px rgba(34, 197, 94, 1)',
-      }
+      },
+      screens: {
+        'xm': '415px',
+      },
 
     },
   },
