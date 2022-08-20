@@ -8,7 +8,7 @@ const NavBar: NextPage = () => {
             bg-gray-900 
             w-full top-0 left-0 h-12 fixed shadow shadow-gray-700 z-50">
 
-            <div className="pl-5 pr-5 flex items-center justify-between w-navWidth ">
+            <div className="xm:px-5 px-3 flex items-center justify-between w-navWidth ">
                 <Link href="/"><div className="text-violet-300   hover:drop-shadow-dropViolet shadow-gray-300 cursor-pointer select-none text-lg ">ehsan <span className="xm:inline-block hidden">sumra</span></div></Link>
                 <section className="flex align-center  [&>*]:select-none [&>*]:cursor-pointer">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ehsan-sumra-a0107b248/" className="ml-5 text-lg text-red-300 hover:drop-shadow-dropRed">linkedin</a>
