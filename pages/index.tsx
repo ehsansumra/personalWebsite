@@ -14,11 +14,11 @@ const Main: NextPage = () => {
 
                 <div className="flex justify-between flex-wrap w-full  ">
                     <div className="lg:w-boxWidth w-auto mb-10">
-                        <h1 className="text-2xl text-violet-300 ">Hi, I'm Ehsan Sumra.</h1>
-                        <h2 className="mt-4 text-lg border-b inline-block text-violet-200 border-violet-500 px-1 ">I'm a software engineer from West Haven, CT.</h2>
+                        <h1 className="text-2xl text-violet-300 ">Hi, I&apos;m Ehsan Sumra.</h1>
+                        <h2 className="mt-4 text-lg border-b inline-block text-violet-200 border-violet-500 px-1 ">I&apos;m a software engineer from West Haven, CT.</h2>
 
                         <p className="my-2 mb-4 w-full  text-gray-400">
-                            ...and a Computer Science Student at Southern Connecticut State University (Graduating May 2023). I've worked on
+                            ...and a Computer Science Student at Southern Connecticut State University (Graduating May 2023). I&apos;ve worked on
                             full stack CRUD applications as well as some frontend projects in my spare time.
                         </p>
 
@@ -68,7 +68,6 @@ const Main: NextPage = () => {
                     <li className="list-item">Developed a REST API backend using Node.js, Express.js, Sequelize ORM and MySQL.</li>
                     <li className="list-item">Single page application frontend using React, React Router, and React-Bootstrap.</li>
                 </ul>
-
 
                 <section className="flex justify-start items-baseline flex-wrap mt-5 mb-2">
                     <h2 className=" text-lg text-violet-200 border-b border-violet-500 px-1">This Website
