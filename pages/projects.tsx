@@ -1,11 +1,15 @@
 import { NextPage } from "next"
-import MainHeader from "../components/mainheader";
 import HeaderBox from "../components/headerbox";
 import LinkBox from "../components/linkbox";
-
+import Head from 'next/head'
 const Projects: NextPage = () => {
 
     return (
+
+        <>
+        <Head>
+            <title>Projects - Ehsan Sumra</title>
+        </Head>
         <div className=" pattern w-full bg-gray-900 min-h-screen pt-12 flex flex-wrap justify-center">
             <section className=" bg-gray-900  shadow-gray-900 flex flex-col min-h-full w-navWidth xm:p-8 pb-5 xm:px-5 px-3 mt-30  md:mx-2">
 
@@ -45,7 +49,7 @@ const Projects: NextPage = () => {
 
             </section>
         </div>
-
+        </>
     )
 }
 
