@@ -45,35 +45,28 @@ const Main: NextPage = () => {
                     <div className="w-auto mb-20 ">
                         <JsonHeader title="Skills">
                             <HeaderArray title="Languages">
-                                "Javascript", "Typescript", "HTML", "CSS", "SQL", "Java", "Python"
+                            &quot;Javascript&quot;, &quot;Typescript&quot;, &quot;HTML&quot;, &quot;CSS&quot;, &quot;SQL&quot;, &quot;Java&quot;, &quot;Python&quot;
                             </HeaderArray>
 
                             <HeaderArray title="Frameworks and Libraries">
-                                "React", "Node.js", "Express.js", "Next.js", "Sequelize.js"
+                            &quot;React&quot;, &quot;Node.js&quot;, &quot;Express.js&quot;, &quot;Next.js&quot;, &quot;Sequelize.js&quot;
                             </HeaderArray>
 
                             <HeaderArray title="Tools">
-                                "Git", "Github", "GitKraken", "NPM", "Trello"
+                            &quot;Git&quot;, &quot;Github&quot;, &quot;GitKraken&quot;, &quot;NPM&quot;, &quot;Trello&quot;
                             </HeaderArray>
 
                             <HeaderArray title="Projects">
                                 <Link href="/projects" scroll={false}>
                                     <a className="hover:bg-green-300 hover:text-green-800 hover:font-bold text-green-300 border border-green-800 p-1">
-                                       "/projects-link"
+                                    &quot;/projects-link&quot;
                                     </a>
                                 </Link>
                             </HeaderArray>
                         </JsonHeader>
 
                     </div>
-
-
-
-
-
-
-
-                    
+   
                 </section>
 
 

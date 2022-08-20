@@ -11,7 +11,7 @@ const HeaderArray: FC<Props> = ({ children, title, style }) => {
         <>
             <div className="flex justify-start items-center mt-4">
                 <h2 style={style} className="mt-4 text-lg  inline-block text-orange border-violet-300 px-1">
-                    "{title}"
+                &quot;{title}&quot;
                 </h2>
 
                 <div className="mt-4 ml-1 text-lg ">{": ["}</div>
