@@ -61,7 +61,7 @@ const Main: NextPage = () => {
 
                 <MainHeader margin={true}>Projects</MainHeader>
 
-                <section className="flex justify-start items-baseline flex-wrap mt-5 mb-2">
+                <section className="flex justify-start items-baseline flex-wrap mb-2">
                     <HeaderBox>Full Stack Survey App</HeaderBox>
                     <LinkBox narrowStyle={true} href="https://github.com/ehsansumra/surveyProject">-link</LinkBox>
                 </section>
