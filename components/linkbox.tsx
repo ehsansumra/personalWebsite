@@ -12,8 +12,10 @@ const LinkBox: FC<Props> = ({ children, href, style, narrowStyle}) => {
     let padding = " p-1 px-2";
     if (narrowStyle) padding = " px-1 ml-3";
     return (
-        <a className={defaultStyle + padding} 
-            href={href} target="_blank" rel="noopener noreferrer" style={style}
+        <a className={defaultStyle + padding}
+            
+            href={href}
+            target="_blank" rel="noopener noreferrer" style={style}
         >
             {children}
         </a>
