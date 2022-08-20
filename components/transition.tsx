@@ -22,8 +22,7 @@ const Transition: FC<Props> = ({ children }) => {
             opacity: 1,
             y: 0,
             transition: {
-                duration: 0.75,
-                delay:0.15,
+                duration: 0.65,
                 
             }
         }
