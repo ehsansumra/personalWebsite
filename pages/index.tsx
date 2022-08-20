@@ -16,12 +16,12 @@ const Main: NextPage = () => {
                 <title>Ehsan Sumra</title>
             </Head>
             <div className=" pattern w-full bg-gray-900 min-h-screen pt-12 flex flex-wrap justify-center">
-                <section className=" bg-gray-900  shadow-gray-900 flex flex-col min-h-full w-navWidth p-8 px-5 mt-30  md:mx-2">
+                <section className=" bg-gray-900  shadow-gray-900 flex flex-col min-h-full w-navWidth xm:p-8 xm:px-5 px-3 mt-30  md:mx-2">
 
 
                     <div className="w-auto sm:mb-5">
                         <MainHeader firstHeader={true}>Hi, I&apos;m Ehsan Sumra.</MainHeader>
-                        <h2 className="mt-4 text-lg  inline-block text-violet-200  ">I&apos;m a software engineer from West Haven, CT.</h2>
+                        <h2 className="mt-4 xm:text-lg  inline-block text-violet-200  ">I&apos;m a software engineer from West Haven, CT.</h2>
 
                         <p className="my-2 mb-4 w-full  text-gray-400">
                             ...and a Computer Science Student at Southern Connecticut State University (Graduating May 2023). I&apos;ve worked on
