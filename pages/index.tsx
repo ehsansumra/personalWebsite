@@ -13,35 +13,35 @@ const Main: NextPage = () => {
             <section className=" bg-gray-900  shadow-gray-900 flex flex-col min-h-full w-navWidth p-8 px-5 mt-30  md:mx-2">
 
                 <div className="flex justify-between flex-wrap w-full  ">
-                    <div className="sm:w-boxWidth w-auto mb-10">
-                        <h1 className="text-2xl text-violet-400">Hi, I'm Ehsan.</h1>
-                        <h2 className="mt-4 text-lg">I'm a software engineer from West Haven, CT.</h2>
+                    <div className="lg:w-boxWidth w-auto mb-10">
+                        <h1 className="text-2xl text-violet-300 ">Hi, I'm Ehsan Sumra.</h1>
+                        <h2 className="mt-4 text-lg border-b inline-block text-violet-200 border-violet-500 px-1 ">I'm a software engineer from West Haven, CT.</h2>
 
-                        <p className="my-2 w-full  text-gray-400">
-                            I'm a Computer Science Student at Southern Connecticut State University (Graduating May 2023). I've worked on
+                        <p className="my-2 mb-4 w-full  text-gray-400">
+                            ...and a Computer Science Student at Southern Connecticut State University (Graduating May 2023). I've worked on
                             full stack CRUD applications as well as some frontend projects in my spare time.
                         </p>
 
 
-                        <a className=" hover:underline" href="mailto:ehsansumra@gmail.com">
+                        <a className="hover:bg-green-300 hover:text-green-800 hover:font-bold text-green-300 border border-green-800 p-1 px-2" href="mailto:ehsansumra@gmail.com">
                             ehsansumra@gmail.com
                         </a>
                     </div>
 
-                    <div className="sm:w-boxWidth w-auto  ">
-                        <h1 className="text-2xl text-violet-400">Skills</h1>
+                    <div className="lg:w-boxWidth w-auto  ">
+                        <h1 className="text-2xl text-violet-300">Skills</h1>
 
-                        <h2 className="mt-4 text-lg">Languages</h2>
+                        <h2 className="mt-4 text-lg border-b inline-block text-violet-200 border-violet-500 px-1">Languages</h2>
                         <p className="mt-2 w-full  text-gray-400">
                             Javascript, Typescript, HTML, CSS, SQL, Java, Python
                         </p>
 
-                        <h2 className="mt-4 text-lg">Frameworks and Libraries</h2>
+                        <h2 className="mt-4 text-lg border-b inline-block text-violet-200 border-violet-500 px-1">Frameworks and Libraries</h2>
                         <p className="mt-2 w-full  text-gray-400">
                             React, Node.js, Express.js, Next.js, Sequelize.js
                         </p>
 
-                        <h2 className="mt-4 text-lg">Tools</h2>
+                        <h2 className="mt-4 text-lg border-b inline-block text-violet-200 border-violet-500 px-1">Tools</h2>
                         <p className="mt-2 text-gray-400">
                             Git, Github, GitKraken, NPM, Trello
                         </p>
@@ -54,11 +54,11 @@ const Main: NextPage = () => {
 
 
 
-                <h1 className="text-2xl text-violet-400 w-full mt-10">Projects</h1>
+                <h1 className="text-2xl text-violet-300 w-full mt-10">Projects</h1>
 
                 <section className="flex justify-start items-baseline flex-wrap mt-5 mb-2">
-                    <h2 className="text-lg">Full Stack Survey App</h2>
-                    <a className="ml-3 hover:underline text-blue-400" href="https://github.com/ehsansumra/surveyProject">
+                    <h2 className="text-lg text-violet-200 border-b border-violet-500 px-1">Full Stack Survey App</h2>
+                    <a className="ml-3 mt-1 hover:bg-green-300 hover:text-green-800 hover:font-bold text-green-300 border border-green-800 px-1" href="https://github.com/ehsansumra/surveyProject">
                         -link
                     </a>
                 </section>
@@ -71,9 +71,9 @@ const Main: NextPage = () => {
 
 
                 <section className="flex justify-start items-baseline flex-wrap mt-5 mb-2">
-                    <h2 className=" text-lg ">This Website
+                    <h2 className=" text-lg text-violet-200 border-b border-violet-500 px-1">This Website
                     </h2>
-                    <a className=" ml-3  hover:underline  text-blue-400" href="https://github.com/ehsansumra/personalWebsite">
+                    <a className=" ml-3  hover:bg-green-300 hover:text-green-800 hover:font-bold text-green-300 border border-green-800 px-1" href="https://github.com/ehsansumra/personalWebsite">
                         -link
                     </a>
                 </section>
@@ -84,10 +84,10 @@ const Main: NextPage = () => {
 
 
                 <section className="flex justify-start items-baseline flex-wrap mt-5 mb-2">
-                    <h2 className="text-lg">
+                    <h2 className="text-lg text-violet-200 border-b border-violet-500 px-1">
                         Poker Overlay
                     </h2>
-                    <p className="ml-3 text-gray-400">-private</p>
+                    <p className="ml-3 text-gray-400 bg-gray-800 px-1">-private</p>
                 </section>
 
                 <ul className="pl-5 [&>*]:text-gray-400">

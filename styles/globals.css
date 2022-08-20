@@ -13,6 +13,13 @@ body {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+::selection {
+  background: #15803D; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #15803D; /* Gecko Browsers */
+}
+
 a {
   color: inherit;
   text-decoration: none;
