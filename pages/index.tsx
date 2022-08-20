@@ -16,7 +16,7 @@ const Main: NextPage = () => {
             <section className=" bg-gray-900  shadow-gray-900 flex flex-col min-h-full w-navWidth p-8 px-5 mt-30  md:mx-2">
 
                 <div className="flex justify-between flex-wrap w-full  ">
-                    <div className="lg:w-boxWidth w-auto mb-10">
+                    <div className="lg:w-boxWidth w-auto">
                         <MainHeader>Hi, I&apos;m Ehsan Sumra</MainHeader>
                         <h2 className="mt-4 text-lg  inline-block text-violet-200  ">I&apos;m a software engineer from West Haven, CT.</h2>
 
