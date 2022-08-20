@@ -5,7 +5,7 @@ import LinkBox from '../components/linkbox';
 import MainHeader from '../components/mainheader';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
-
+import Link from 'next/link';
 const Main: NextPage = () => {
     const { pathname } = useRouter();
     useEffect(() => {
@@ -34,10 +34,11 @@ const Main: NextPage = () => {
 
                         <LinkBox href="mailto:ehsansumra@gmail.com">ehsansumra@gmail.com</LinkBox>
 
-                        <a 
-                            className="ml-1 text-red-200 border border-red-300 p-1 px-2 hover:bg-red-300 hover:text-red-800 hover:font-bold"
-                            href="/resume.png" target="_blank" rel="noopener noreferrer"
-                        >resume</a>
+                        <Link   href="/resume">
+                            <a className="ml-1 text-red-200 border border-red-300 p-1 px-2 hover:bg-red-300 hover:text-red-800 hover:font-bold">
+                                resume
+                            </a>
+                        </Link>
                     </div>
 
                     <div className="lg:w-boxWidth w-auto  ">
