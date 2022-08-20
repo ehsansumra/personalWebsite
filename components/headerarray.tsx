@@ -14,7 +14,7 @@ const HeaderArray: FC<Props> = ({ children, title, style }) => {
                 &quot;{title}&quot;
                 </h2>
 
-                <div className="mt-4 ml-1 text-lg ">{": ["}</div>
+                <div className="mt-4 text-lg ">{": ["}</div>
 
             </div>
             <p className="mt-2  ml-5 w-full  text-green-200">
