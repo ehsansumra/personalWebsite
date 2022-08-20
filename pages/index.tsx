@@ -20,7 +20,7 @@ const Main: NextPage = () => {
 
 
                     <div className="w-auto sm:mb-5">
-                        <MainHeader firstHeader={true}>Hi, I&apos;m Ehsan Sumra</MainHeader>
+                        <MainHeader firstHeader={true}>Hi, I&apos;m Ehsan Sumra.</MainHeader>
                         <h2 className="mt-4 text-lg  inline-block text-violet-200  ">I&apos;m a software engineer from West Haven, CT.</h2>
 
                         <p className="my-2 mb-4 w-full  text-gray-400">
