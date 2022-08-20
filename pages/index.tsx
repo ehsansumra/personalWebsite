@@ -91,7 +91,7 @@ const Main: NextPage = () => {
 
                 <ul className="pl-5 [&>*]:text-gray-400">
                     <li className="list-item">Co-created a poker overlay for the Pokernow.club website using Typescript and Node.js.</li>
-                    <li className="list-item">Uses game history logs retrieved from Pokernow's backend API to construct hand histories</li>
+                    <li className="list-item">Uses game history logs retrieved from Pokernow&apos;s backend API to construct hand histories</li>
                     <li className="list-item">Hand histories are stored for each player and used to display various statistics on each player</li>
                 </ul>
 
