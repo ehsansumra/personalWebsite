@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   mode: 'jit',
-  darkMode: 'false',
 
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
