@@ -14,13 +14,13 @@ const HeaderArray: FC<Props> = ({ children, title, style }) => {
                 &quot;{title}&quot;
                 </h2>
 
-                <div className="mt-4 xm:text-lg ">{": ["}</div>
+                <div className="mt-4 xm:text-lg text-gray-100">{": ["}</div>
 
             </div>
             <p className="mt-2  ml-5 w-full  text-green-200">
                 {children}
             </p>
-            <div className="xm:text-lg">{"],"}</div>
+            <div className="xm:text-lg text-gray-100">{"],"}</div>
         </>
 
 
