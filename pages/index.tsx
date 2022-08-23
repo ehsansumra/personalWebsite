@@ -1,11 +1,9 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import HeaderBox from '../components/headerbox';
+import type { NextPage } from 'next';
+import Head from 'next/head';
 import HeaderArray from '../components/headerarray';
-import LinkBox from '../components/linkbox';
 import MainHeader from '../components/mainheader';
 import JsonHeader from '../components/jsonheader';
-
+import Transition from '../components/transition';
 import Link from 'next/link';
 const Main: NextPage = () => {
 
@@ -15,10 +13,13 @@ const Main: NextPage = () => {
             <Head>
                 <title>Ehsan Sumra</title>
             </Head>
+            
             <div className=" pattern w-full bg-gray-900 min-h-screen pt-12 flex flex-wrap justify-center">
                 <section className=" bg-gray-900  shadow-gray-900 flex flex-col min-h-full w-navWidth xm:p-8 xm:px-5 px-3 mt-30  md:mx-2">
 
+                <Transition>
 
+                
                     <div className="w-auto sm:mb-5">
                         <MainHeader firstHeader={true}>Hi, I&apos;m Ehsan Sumra.</MainHeader>
                         <h2 className="mt-4 xm:text-lg  inline-block text-violet-200  ">I&apos;m a software engineer from West Haven, CT.</h2>
@@ -29,17 +30,17 @@ const Main: NextPage = () => {
                         </p>
                         <div className="flex justify-start flex-wrap items-baseline">
                             <Link href="mailto:ehsansumra@gmail.com">
-                                <a className="mr-2 mt-2 text-green-200 border border-green-300 p-1 px-2 hover:bg-green-300 hover:text-green-800 hover:font-bold">
+                                <a className="mr-2 mt-2 text-green-200 border hover:-translate-y-1 border-green-300 p-1 px-2 transition-all hover:bg-green-300 hover:text-green-800 hover:font-bold">
                                     ehsansumra@gmail.com
                                 </a>
                             </Link>
                             <Link href="/resume">
-                                <a className="mr-2 mt-2 text-red-200 border border-red-300 p-1 px-2 hover:bg-red-300 hover:text-red-800 hover:font-bold">
+                                <a className="mr-2 mt-2 text-red-200 border hover:-translate-y-1 border-red-300 p-1 px-2 transition-all hover:bg-red-300 hover:text-red-800 hover:font-bold">
                                     resume
                                 </a>
                             </Link>
                             <Link href="/projects">
-                                <a className=" mt-2 text-violet-200 border border-violet-300 p-1 px-2 hover:bg-violet-300 hover:text-violet-800 hover:font-bold">
+                                <a className=" mt-2 text-violet-200 border hover:-translate-y-1 border-violet-300 p-1 px-2 transition-all hover:bg-violet-300 hover:text-violet-800 hover:font-bold">
                                     projects
                                 </a>
                             </Link>
@@ -71,6 +72,7 @@ const Main: NextPage = () => {
                         </JsonHeader>
 
                     </div>
+                    </Transition>
 
                 </section>
 

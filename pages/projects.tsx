@@ -2,6 +2,7 @@ import { NextPage } from "next"
 import HeaderBox from "../components/headerbox";
 import LinkBox from "../components/linkbox";
 import Head from 'next/head'
+import Transition from "../components/transition";
 const Projects: NextPage = () => {
 
     return (
@@ -12,7 +13,7 @@ const Projects: NextPage = () => {
         </Head>
         <div className=" pattern w-full bg-gray-900 min-h-screen pt-12 flex flex-wrap justify-center">
             <section className=" bg-gray-900  shadow-gray-900 flex flex-col min-h-full w-navWidth xm:p-8 pb-5 xm:px-5 px-3 mt-30  md:mx-2">
-
+                <Transition>
                 <h1 className="xm:text-2xl text-xl text-violet-300  mt-10">Projects</h1>
 
                 <section className="flex justify-start items-baseline flex-wrap mb-2">
@@ -46,7 +47,7 @@ const Projects: NextPage = () => {
                     <li className="list-item">Uses game history logs retrieved from Pokernow&apos;s backend API to construct hand histories</li>
                     <li className="list-item">Hand histories are stored for each player and used to display various statistics on each player</li>
                 </ul>
-
+                </Transition>
             </section>
         </div>
         </>
