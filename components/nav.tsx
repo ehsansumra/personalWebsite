@@ -6,7 +6,7 @@ const NavBar: NextPage = () => {
     const router = useRouter();
     let nameColor = " text-violet-300 ";
 
-    if (router.pathname === "/projects") nameColor = " text-green-300 ";
+    if (router.pathname === "/projects") nameColor = " text-emerald-300 ";
     if (router.pathname === "/about") nameColor = " text-blue-300 ";
     if (router.pathname === "/resume") nameColor = " text-red-300 ";
 
@@ -22,7 +22,7 @@ const NavBar: NextPage = () => {
                 <Link href="/"><div className={firstNameStyle}>ehsan <span className={secondNameStyle}>sumra</span></div></Link>
                 <section className="flex align-center  [&>*]:select-none [&>*]:cursor-pointer">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ehsan-sumra-a0107b248/" className="ml-5 text-lg text-red-300 hover:drop-shadow-dropRed">linkedin</a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ehsansumra" className="ml-5 text-lg text-green-300 hover:drop-shadow-dropGreen ">github</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ehsansumra" className="ml-5 text-lg text-emerald-300 hover:drop-shadow-dropGreen ">github</a>
                 </section>
      
 

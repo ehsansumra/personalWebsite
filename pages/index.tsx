@@ -22,7 +22,7 @@ const Main: NextPage = () => {
                 
                     <div className="w-auto sm:mb-5">
                         <MainHeader firstHeader={true}>Hi, I&apos;m Ehsan Sumra.</MainHeader>
-                        <h2 className="mt-4 xm:text-lg  inline-block text-violet-200  ">I&apos;m a software engineer from West Haven, CT.</h2>
+                        <h2 className="mt-4 xm:text-lg  inline-block text-gray-300  ">I&apos;m a software engineer from West Haven, CT.</h2>
 
                         <p className="my-2 mb-4 w-full  text-gray-400">
                             ...and a Computer Science Student at Southern Connecticut State University (Graduating May 2023). I&apos;ve worked on
@@ -40,7 +40,7 @@ const Main: NextPage = () => {
                                 </a>
                             </Link>
                             <Link href="/projects">
-                                <a className="mr-2 mt-2 text-green-200 border hover:-translate-y-1 border-green-300 p-2 px-3 transition-all hover:bg-green-300 hover:text-green-800 hover:font-bold">
+                                <a className="mr-2 mt-2 text-emerald-200 border hover:-translate-y-1 border-emerald-300 p-2 px-3 transition-all hover:bg-emerald-300 hover:text-emerald-800 hover:font-bold">
                                     projects
                                 </a>
                             </Link>
@@ -73,7 +73,7 @@ const Main: NextPage = () => {
 
                             <HeaderArray title="Projects">
                                 <Link href="/projects" >
-                                    <a className="text-green-200 border hover:-translate-y-1 border-green-300 p-2 px-3 transition-all hover:bg-green-300 hover:text-green-800 hover:font-bold ">
+                                    <a className="text-emerald-200 border hover:-translate-y-1 border-emerald-300 p-2 px-3 transition-all hover:bg-emerald-300 hover:text-emerald-800 hover:font-bold ">
                                         &quot;/projects&quot;
                                     </a>
                                 </Link>

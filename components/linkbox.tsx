@@ -8,7 +8,7 @@ interface Props {
 }
 
 const LinkBox: FC<Props> = ({ children, href, style, narrowStyle}) => {
-    let defaultStyle = "hover:bg-green-300 hover:text-green-800 hover:font-bold text-green-300 border border-green-800 mt-2";
+    let defaultStyle = "hover:bg-emerald-300 hover:text-emerald-800 hover:font-bold text-emerald-300 border border-emerald-800 mt-2";
     let padding = " p-1 px-2";
     if (narrowStyle) padding = " px-1 ml-3";
     return (
