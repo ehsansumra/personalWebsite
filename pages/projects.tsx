@@ -16,9 +16,20 @@ const Projects: NextPage = () => {
                 <Transition>
                 <h1 className="xm:text-2xl text-xl text-violet-300  mt-10">Projects</h1>
 
-                <section className="flex justify-start items-baseline flex-wrap mb-2">
+                <section className="flex justify-start items-baseline flex-wrap mt-5 mb-2">
+                    <HeaderBox>Coastal Materials Testing Lab Website</HeaderBox>
+                    <LinkBox narrowStyle={true} href="https://www.coastalmaterialstesting.com">-coastalmaterialstesting.com</LinkBox>
+                </section>
+
+                <ul className="pl-5 [&>*]:text-gray-400">
+                    <li className="list-item">Co-created and designed a responsive website for Coastal Materials Testing Lab, LLC.</li>
+                    <li className="list-item">Created with Next.js and React-Bootstrap.</li>
+                    <li className="list-item">Worked with the client to ensure that all of the requirements were met. Held multiple meetings to ensure we were on the same page in the development process</li>
+                </ul>
+
+                <section className="flex justify-start items-baseline flex-wrap mt-5 mb-2">
                     <HeaderBox>Full Stack Survey App</HeaderBox>
-                    <LinkBox narrowStyle={true} href="https://github.com/ehsansumra/surveyProject">-link</LinkBox>
+                    <LinkBox narrowStyle={true} href="https://github.com/ehsansumra/surveyProject">-github repo</LinkBox>
                 </section>
 
                 <ul className="pl-5 [&>*]:text-gray-400">
@@ -29,13 +40,17 @@ const Projects: NextPage = () => {
 
                 <section className="flex justify-start items-baseline flex-wrap mt-5 mb-2">
                     <HeaderBox>This Website</HeaderBox>
-                    <LinkBox narrowStyle={true} href="https://github.com/ehsansumra/personalWebsite">-link</LinkBox>
+                    <LinkBox narrowStyle={true} href="https://ehsansumra.com">-ehsansumra.com</LinkBox>
                 </section>
 
                 <ul className="pl-5 [&>*]:text-gray-400">
                     <li className="list-item">A responsive personal website created with React, Next.js, TypeScript, and Tailwind CSS</li>
                 </ul>
 
+
+                
+
+                
 
                 <section className="flex justify-start items-baseline flex-wrap mt-5 mb-2">
                     <HeaderBox>Poker Overlay</HeaderBox>
