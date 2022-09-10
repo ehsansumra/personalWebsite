@@ -21,12 +21,13 @@ const Projects: NextPage = () => {
                                 <Image layout="responsive" src={websiteportrait} />
                             </div>
                             <div className="md:w-2/3">
-                                <MainHeader noMargin={true}>I&apos;m Ehsan. I like programming, designing, and learning new technologies.</MainHeader>
+                                <MainHeader color="text-blue-300" noMargin={true}>I&apos;m Ehsan. I like programming, designing, and learning new technologies.</MainHeader>
                                 <div className="w-full mt-3 text-gray-400">
                                     I&apos;m working towards landing my first job as a <span className="text-gray-300">software engineer</span>. This website is a way for me to put the skills I&apos;ve learned on display.
 
                                 </div>
-                                <MainHeader style={{ marginTop: "1.25rem" }}>What I&apos;m working on.</MainHeader>
+                                
+                                <MainHeader color="text-blue-300" style={{ marginTop: "1.25rem" }}>What I&apos;m working on.</MainHeader>
                                 <div className="w-full mt-3 text-gray-400">
                                     I&apos;m working on learning <span className="text-gray-300">Rust</span> language to expand my knowledge on compiled languages.
                                     I&apos;m reading the documentation and learning new Rust concepts including references, borrowing, ownership, all of
@@ -35,7 +36,7 @@ const Projects: NextPage = () => {
 
                                 </div>
 
-                                <MainHeader style={{ marginTop: "1.25rem" }}>School and Work.</MainHeader>
+                                <MainHeader color="text-blue-300" style={{ marginTop: "1.25rem" }}>School and Work.</MainHeader>
                                 <div className="w-full mt-3 text-gray-400">
                                     I&apos;m in my last year of university as a <span className="text-gray-300">Computer Science major.</span> This semester, I&apos;m taking Theory of Programming Language (Haskell), Computer Graphics (C++),
                                     Algorithms (Java), Software Design and Development (Python and Bash), and Introduction to Research in Computer Science.

@@ -30,8 +30,8 @@ const Main: NextPage = () => {
                         </p>
                         <div className="flex justify-start flex-wrap items-baseline">
                             <Link href="mailto:ehsansumra@gmail.com">
-                                <a className="mr-2 mt-2 text-green-200 border hover:-translate-y-1 border-green-300 p-2 px-3 transition-all hover:bg-green-300 hover:text-green-800 hover:font-bold">
-                                    ehsansumra@gmail.com
+                                <a className="mr-2 mt-2 text-violet-200 border hover:-translate-y-1 border-violet-300 p-2 px-3 transition-all hover:bg-violet-300 hover:text-violet-800 hover:font-bold">
+                                    ehsansumra@gmail.com 
                                 </a>
                             </Link>
                             <Link href="/resume">
@@ -40,7 +40,7 @@ const Main: NextPage = () => {
                                 </a>
                             </Link>
                             <Link href="/projects">
-                                <a className="mr-2 mt-2 text-violet-200 border hover:-translate-y-1 border-violet-300 p-2 px-3 transition-all hover:bg-violet-300 hover:text-violet-800 hover:font-bold">
+                                <a className="mr-2 mt-2 text-green-200 border hover:-translate-y-1 border-green-300 p-2 px-3 transition-all hover:bg-green-300 hover:text-green-800 hover:font-bold">
                                     projects
                                 </a>
                             </Link>
