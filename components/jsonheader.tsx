@@ -19,7 +19,7 @@ const JsonHeader: FC<Props> = ({ children, title, style,margin, firstHeader }) =
 
             <div className="flex justify-start items-center mt-4">
                 <h1 className={defaultStyle} style={style}>
-                    {title}<span className="text-red-300">.json</span>
+                    {title}<span className="text-violet-200">.json</span>
                 </h1>
 
                 <div className={defaultStyle}>{": {"}</div>
